@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/sventilator/lebenslauf.git/static/css/main.827aae7d.chunk.css",
+    "main.js": "/sventilator/lebenslauf.git/static/js/main.49e43ad7.chunk.js",
+    "main.js.map": "/sventilator/lebenslauf.git/static/js/main.49e43ad7.chunk.js.map",
+    "runtime-main.js": "/sventilator/lebenslauf.git/static/js/runtime-main.2eec32dd.js",
+    "runtime-main.js.map": "/sventilator/lebenslauf.git/static/js/runtime-main.2eec32dd.js.map",
+    "static/css/2.14f26604.chunk.css": "/sventilator/lebenslauf.git/static/css/2.14f26604.chunk.css",
+    "static/js/2.34f1e973.chunk.js": "/sventilator/lebenslauf.git/static/js/2.34f1e973.chunk.js",
+    "static/js/2.34f1e973.chunk.js.map": "/sventilator/lebenslauf.git/static/js/2.34f1e973.chunk.js.map",
+    "index.html": "/sventilator/lebenslauf.git/index.html",
+    "precache-manifest.2cf3197ad3821739a0ad1a6d70866356.js": "/sventilator/lebenslauf.git/precache-manifest.2cf3197ad3821739a0ad1a6d70866356.js",
+    "service-worker.js": "/sventilator/lebenslauf.git/service-worker.js",
+    "static/css/2.14f26604.chunk.css.map": "/sventilator/lebenslauf.git/static/css/2.14f26604.chunk.css.map",
+    "static/css/main.827aae7d.chunk.css.map": "/sventilator/lebenslauf.git/static/css/main.827aae7d.chunk.css.map",
+    "static/media/Technologien.css": "/sventilator/lebenslauf.git/static/media/sql2.eba7ef36.png",
+    "static/media/Banner.css": "/sventilator/lebenslauf.git/static/media/sven2.2979dbf4.jpg",
+    "static/media/Ausbildung.css": "/sventilator/lebenslauf.git/static/media/mountain.57a8fb7b.jpg",
+    "static/media/styles.css": "/sventilator/lebenslauf.git/static/media/revicons.2feb69cc.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2eec32dd.js",
+    "static/css/2.14f26604.chunk.css",
+    "static/js/2.34f1e973.chunk.js",
+    "static/css/main.827aae7d.chunk.css",
+    "static/js/main.49e43ad7.chunk.js"
+  ]
+}
