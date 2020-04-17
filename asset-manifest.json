@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/sventilator/lebenslauf.git/static/css/main.827aae7d.chunk.css",
-    "main.js": "/sventilator/lebenslauf.git/static/js/main.49e43ad7.chunk.js",
-    "main.js.map": "/sventilator/lebenslauf.git/static/js/main.49e43ad7.chunk.js.map",
-    "runtime-main.js": "/sventilator/lebenslauf.git/static/js/runtime-main.2eec32dd.js",
-    "runtime-main.js.map": "/sventilator/lebenslauf.git/static/js/runtime-main.2eec32dd.js.map",
-    "static/css/2.14f26604.chunk.css": "/sventilator/lebenslauf.git/static/css/2.14f26604.chunk.css",
-    "static/js/2.34f1e973.chunk.js": "/sventilator/lebenslauf.git/static/js/2.34f1e973.chunk.js",
-    "static/js/2.34f1e973.chunk.js.map": "/sventilator/lebenslauf.git/static/js/2.34f1e973.chunk.js.map",
-    "index.html": "/sventilator/lebenslauf.git/index.html",
-    "precache-manifest.2cf3197ad3821739a0ad1a6d70866356.js": "/sventilator/lebenslauf.git/precache-manifest.2cf3197ad3821739a0ad1a6d70866356.js",
-    "service-worker.js": "/sventilator/lebenslauf.git/service-worker.js",
-    "static/css/2.14f26604.chunk.css.map": "/sventilator/lebenslauf.git/static/css/2.14f26604.chunk.css.map",
-    "static/css/main.827aae7d.chunk.css.map": "/sventilator/lebenslauf.git/static/css/main.827aae7d.chunk.css.map",
-    "static/media/Technologien.css": "/sventilator/lebenslauf.git/static/media/sql2.eba7ef36.png",
-    "static/media/Banner.css": "/sventilator/lebenslauf.git/static/media/sven2.2979dbf4.jpg",
-    "static/media/Ausbildung.css": "/sventilator/lebenslauf.git/static/media/mountain.57a8fb7b.jpg",
-    "static/media/styles.css": "/sventilator/lebenslauf.git/static/media/revicons.2feb69cc.eot"
+    "main.css": "/lebenslauf1/static/css/main.fafdf075.chunk.css",
+    "main.js": "/lebenslauf1/static/js/main.72eaaca7.chunk.js",
+    "main.js.map": "/lebenslauf1/static/js/main.72eaaca7.chunk.js.map",
+    "runtime-main.js": "/lebenslauf1/static/js/runtime-main.721df695.js",
+    "runtime-main.js.map": "/lebenslauf1/static/js/runtime-main.721df695.js.map",
+    "static/css/2.1cfc6fa4.chunk.css": "/lebenslauf1/static/css/2.1cfc6fa4.chunk.css",
+    "static/js/2.34f1e973.chunk.js": "/lebenslauf1/static/js/2.34f1e973.chunk.js",
+    "static/js/2.34f1e973.chunk.js.map": "/lebenslauf1/static/js/2.34f1e973.chunk.js.map",
+    "index.html": "/lebenslauf1/index.html",
+    "precache-manifest.d61e5a0ce32602745ef44a80a186b0f0.js": "/lebenslauf1/precache-manifest.d61e5a0ce32602745ef44a80a186b0f0.js",
+    "service-worker.js": "/lebenslauf1/service-worker.js",
+    "static/css/2.1cfc6fa4.chunk.css.map": "/lebenslauf1/static/css/2.1cfc6fa4.chunk.css.map",
+    "static/css/main.fafdf075.chunk.css.map": "/lebenslauf1/static/css/main.fafdf075.chunk.css.map",
+    "static/media/Technologien.css": "/lebenslauf1/static/media/sql2.eba7ef36.png",
+    "static/media/Banner.css": "/lebenslauf1/static/media/sven2.2979dbf4.jpg",
+    "static/media/Ausbildung.css": "/lebenslauf1/static/media/mountain.57a8fb7b.jpg",
+    "static/media/styles.css": "/lebenslauf1/static/media/revicons.2feb69cc.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.2eec32dd.js",
-    "static/css/2.14f26604.chunk.css",
+    "static/js/runtime-main.721df695.js",
+    "static/css/2.1cfc6fa4.chunk.css",
     "static/js/2.34f1e973.chunk.js",
-    "static/css/main.827aae7d.chunk.css",
-    "static/js/main.49e43ad7.chunk.js"
+    "static/css/main.fafdf075.chunk.css",
+    "static/js/main.72eaaca7.chunk.js"
   ]
 }
