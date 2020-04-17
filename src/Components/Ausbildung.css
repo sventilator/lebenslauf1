@@ -1,0 +1,258 @@
+.ausbildungscontainer{
+    border:1px solid red;
+   position: relative;
+   height:80em; 
+}
+.ausbildungsrow{
+    border:1px solid red;
+    height:80em; 
+   
+    
+   
+}
+.überschriftausbildung{
+    color:black;
+    position: relative;
+    width:5.6em;
+   font-weight: lighter;
+   left:50%;
+   margin-left:-2.8em;
+   top:2.7em;
+    
+}
+ .Tabsmain{
+    
+    position: relative;
+    width:20em;
+    top:13em;
+    left:0;
+   font-size: 20px;
+}
+
+ .Tabcontent{
+    position: relative;
+    top:15em;
+    width:100%;
+    height: 35em;
+  
+}  
+
+
+.weiterbildungcol{
+    position: absolute;
+    
+    width: 100%;
+    height:40em;
+    top:0em;
+    
+    background-image: url(../media/mountain.jpg) ;
+    background-attachment: fixed;
+    background-size: cover ;
+   
+    background-repeat:no-repeat;
+    overflow: hidden;
+ }
+ .weiterbildungcoloverlay{
+    position: absolute;
+    z-index: 10;
+   /* top:-35em; */
+    
+   top:0em;
+    height: 40em;
+    width: 100%;
+   /*  background-color: #000000a2; */
+   background: #283c86c4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #283c86cc, #45a247ee); /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #283c86e5, #45a247de); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #1b1b1bde, #d6b16157);
+    /* background-color: #073a36f2; */
+    
+
+    overflow: hidden;
+ }
+
+.strichmitte{
+    position: relative;
+    height:25em;
+    width:2px;
+    background-color:  #d6b161;
+    top:-3em;
+    left: 50%;
+    z-index: 120;
+}
+.knoten{
+    left:-7px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 5em;
+    width:16px;
+    height:16px;
+    background-color: #d6b161;
+    z-index: 120;
+}
+.eintrag{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-align: right;
+    z-index: 200;
+    position: relative;
+    top:-28.2em;
+    
+    left:-60%;
+    color:white;
+    
+    
+    
+    
+}
+/* .parallaxeintrag{
+    position: relative;
+    
+} */
+.eintrag.zwei{
+    left:60%;
+    text-align: left;
+    position: relative;
+    margin-top: -2em;
+    width:17em;
+    
+}
+
+.eintrag.drei{
+    
+    
+    position: relative;
+    margin-top: -2em;
+}
+
+.eintrag.vier{
+    left:60%;
+    text-align: left;
+    position: relative;
+    margin-top: -2em;
+    width:17em;
+    
+    
+}
+.eintrag.fünf{
+    
+    
+    position: relative;
+    margin-top: -3.4em;
+}
+
+.zeitraumüberschrift{
+    color:#d6b161;
+}
+.Tabsmain{
+    
+        
+    top:12.8em;
+   
+}
+/* @media only screen and (max-width: 528px) {
+    .Tabsmain{
+    
+        
+        top:12.4em;
+       
+    }
+} */
+@media only screen and (max-width: 800px) {
+    .Tabsmain{
+    
+        
+        top:12.6em;
+       
+    }
+    .eintrag{
+    text-align:center;
+    left:0em; 
+    top:3.2em;
+    }
+    .eintrag.zwei{
+        text-align: center;
+        left:0em; 
+        top:5.4em;
+        width: 100%;
+        
+        }
+        .eintrag.drei{
+            text-align: center;
+            left:0em; 
+            top:7.6em;
+            }.eintrag.vier{
+                text-align: center;
+                left:0em; 
+                top:10em;
+                width: 100%;
+                } 
+                .eintrag.fünf{
+                    text-align: center;
+                    left:0em; 
+                    top:13.7em;
+                    }   
+     .strichmitte{
+        position: absolute;
+        left:15%;
+        top:3.7em;
+        height: 40em;
+
+        
+    } 
+    .knoten{
+        margin-top:7.3em;
+        top:-7.6em;
+    }
+   
+    
+    .weiterbildungcoloverlay{
+        height: 48em;
+    }
+    .weiterbildungcol{
+        height: 48em;
+    }
+    .überschriftausbildung{
+        
+       top:3em;
+        
+    }
+  } 
+  @media only screen and (max-width: 500px) {
+    .strichmitte{
+        position: absolute;
+        left:7%;
+        
+
+        
+    } 
+  }
+.active.nav-link{
+    border:1px solid rgb(0, 0, 0)!important;
+    border-radius: 3px!important;
+    background-color: black!important;
+    color:white!important;
+    box-shadow: #000000a2!important;
+    
+}
+.active.nav-link.lebenslaufselectschrift{
+    font-size: 16px;
+    
+    color:white!important;
+}
+.nav-link{
+    border:1px solid black!important;
+}
+
+ .lebenslaufselectschrift{
+    font-size: 16px;
+    
+    
+} 
+
+
+.tab-pane.active{
+    height: 40em;
+}
+.tabslink{
+    transition: all .0.3s ease-in;
+}

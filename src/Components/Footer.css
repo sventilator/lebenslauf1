@@ -1,0 +1,296 @@
+.containerfooter{
+   
+  
+   position: relative;
+    height: 100%;
+    top:40em;
+    
+    background-color: #1b1b1b;
+    z-index: 999;
+}
+.kontaktrow{
+   
+    height: 10em!important;
+    position: relative;
+    
+}
+.kontaktrow2{
+   
+    height: 5em!important;
+    position: relative;
+    
+}
+.kontaktcollinks{
+border-bottom:1px solid #d6b161;
+}
+
+.kontaktcolrechts{
+    border-bottom:1px solid #d6b161;
+}
+/* .kontaktcollinks2{
+    
+}
+.kontaktcolrechts2{
+   
+} */
+.überschriftfooter{
+    color:#1b1b1b;
+    position: relative;
+    width:4.1em;
+   font-weight: lighter;
+   left:50%;
+   margin-left:-2.05em;
+   top:-4.7em;
+  
+    
+}
+.nachobenpfeilfooter{
+    
+    height:4em;
+    width:4em;
+    position: absolute;
+    bottom:1em;
+    left:50%;
+    margin-left:-2em;
+   
+    border:none;
+    background-color: #1b1b1b;
+    z-index: 9999;
+    border-radius: 3px;
+    transition: all .0.3s ease-out;
+    top:-6em;
+    
+}
+.nachobenpfeilfooterdiv{
+    border-bottom: 5px solid #d6b161;
+    border-left: 5px solid #d6b161;
+    width: 2em;
+    height: 2em;
+    transform: rotate(135deg);
+    margin-left:0.6em !important;
+    margin-top:0.8em !important;
+    animation: nachobenpfeilfooterdiv 2s ease-in-out infinite both;
+    
+
+}
+@keyframes nachobenpfeilfooterdiv {
+    0% {
+     
+        opacity: 1;
+        
+      }
+      50%{
+          opacity: 0.4; 
+          margin-top:-0.7em;
+      }
+      60%{
+          opacity: 0.3; 
+          margin-top:-0.8em;
+      }
+      80% {
+        
+        opacity: 0;
+        margin-top:-0.9em;
+      }
+      90%{
+          opacity: 0;
+          margin-top:-1em;
+      }
+      100% {
+        
+        
+        top:0.9em;
+      }
+  } 
+.kontaktschriftdiv{
+   
+    position: relative;
+    height: 1em;
+   top:2em;
+}
+.kontaktschrift{
+    color:white;
+   
+    position: relative;
+    top:-0.4em;    
+    
+    text-align: center;
+    
+    
+}
+.kontaktschriftlinksoben{
+    color:white;
+   
+    position: relative;
+    top:-0.4em;    
+    
+    text-align: right;
+    
+    
+}
+.kontaktschriftlinksobendiv{
+    position: relative;
+    height: 1em;
+   top:2em;
+}
+.buttonkontakt{
+    width:10em;
+    height: 2.5em;
+    border-radius:20px; 
+    position: relative;
+    top:1.2em;
+    background-color: #d6b161;
+    border:none;
+    color:white;
+    
+}
+.buttondiv{
+    position: relative;
+    height: 1em;
+   top:2em;
+   
+}
+
+
+.kontaktuntenrechtsdiv{
+
+position: relative;
+top:1em;
+width: 18.1em;
+position: relative;
+left:50%;
+margin-left:-9.05em;
+
+
+}
+.link1{
+    background-image: url(../media/Facebook.png) ;
+    background-size: 110% ;
+    background-position-x: -2px;
+    background-position-y: -2px;
+    background-repeat:no-repeat;
+    width:3em;
+    height:3em;
+    float: left;
+    position: relative;
+    border-radius:50%;
+    border:2px solid #d6b161;
+    
+    
+}
+.link2{
+    background-image: url(../media/Google+.png) ;
+   
+    background-size: 110% ;
+    background-position-x: -2px;
+    background-position-y: -2px;
+    background-repeat:no-repeat;
+    width:3em;
+    height:3em;
+    float: left;
+    position: relative;
+    border-radius:50%;
+    border:2px solid #d6b161;
+    left:2em;
+   
+}
+.link3{
+    background-image: url(../media/Github.png) ;
+   
+    background-size: 110% ;
+    background-position-x: -2px;
+    background-position-y: -2px;
+    background-repeat:no-repeat;
+    width:3em;
+    height:3em;
+    float: left;
+    position: relative;
+    border-radius:50%;
+    border:2px solid #d6b161;
+    left:4em;
+   
+}
+.link4{
+    background-image: url(../media/Linkedin.png) ;
+   
+    background-size: 110% ;
+    background-position-x: -2px;
+    background-position-y: -3px;
+    background-repeat:no-repeat;
+    width:3em;
+    height:3em;
+    float: left;
+    position: relative;
+    border-radius:50%;
+    border:2px solid #d6b161;
+    left:6em;
+  
+}
+@media only screen and (max-width: 992px){
+    .kontaktschriftlinksoben{
+        text-align:center;
+    }
+    .unterbuttonstrich{
+        position: relative;
+        width:100%;
+        top:1em;
+        border:0.5px solid #d6b161;
+    }
+    .kontaktcollinks{
+        border-bottom:none;
+        }
+
+        .kontaktcolrechts{
+            border-bottom:none;
+            }
+
+        .buttonkontakt{
+           
+            left:50%;
+            margin-left:-5em;
+            top:0em;
+        }
+        .kontaktschriftdiv{
+   
+            position: relative;
+            height: 1em;
+            top:-1em;
+
+           
+        }
+        .kontaktschrift{
+   
+            font-size: 14px!important;
+            
+           
+        }
+        .kontaktschriftlinksobendiv{
+           
+           top:0em;
+        }
+        .kontaktuntenrechtsdiv{
+
+            top:-1.5em;
+            
+            
+            }
+            .überschriftfooter{
+                top:-4.3em;
+            }
+   
+  } 
+  @media only screen and (max-width: 801px){
+    .containerfooter{
+        top:45em;
+    }
+  }
+  @media only screen and (min-width: 992px){
+      .nachobenpfeilfooterdiv{
+          display: none!important
+      }
+      .nachobenpfeilfooter{
+        display: none!important
+      }
+  }
+
+

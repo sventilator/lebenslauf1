@@ -1,0 +1,300 @@
+.navbarrow{
+    position: fixed;
+    z-index: 1000;
+    height: 3em;
+    width: 100%;
+   background-color: #1b1b1b;
+   color:white;
+}
+.navbar--hidden {
+    display: none;
+  }
+
+.burgermenu{
+    
+    height:3em;
+    width:3em;
+    left:1.5em;
+    position: relative;
+    background-color: #1b1b1b;
+    top:-0.2em;
+    border:none;
+    
+}
+.burgerrow{
+    position: fixed;
+    top:2.9em;
+    width:100%;
+    height:100%;
+    left:0.95em;
+    background-color: #1b1b1b;
+    /*  background-image: url(../media/gelbfleck.png) ; 
+    background-size:100%;
+    
+    background-position: center; */
+    
+}
+.strich1{
+    width:100%!important;
+    height: 5px;
+    transition: all .0.3s ease-in;
+    position: relative;
+    background-color: #d6b161;
+    margin-top:0.5em;
+    border-radius: 3px;
+}
+.strich2{
+    width:80%!important;
+    height: 5px;
+    transition: all .0.3s ease-in;
+    position: relative;
+    background-color: #d6b161;
+    margin-top:0.5em;
+    border-radius: 3px;
+    transition: all .0.3s ease-in;
+    
+}
+
+.burgermenu:hover >.strich2{
+    width:100%!important;
+    transition: all .0.1s ease-in;
+    
+}
+
+.navschrift{
+   font-size:  1em;
+   font-weight: lighter;
+}
+
+
+.übermichcol{
+    left:3em;
+    position: relative;
+    top:0.9em;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+   
+}
+.übermichcol:hover{
+    
+    border-bottom: 2px solid #d6b161;
+    
+ 
+    
+    
+}
+.technologiecol{
+    position: relative;
+    top:0.9em;
+    left:4em;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+}
+
+.technologiecol:hover{
+    
+    border-bottom: 2px solid #d6b161;
+    
+}
+.lebenslaufcol{
+    position: relative;
+    top:0.9em;
+    left:5em;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+}
+.lebenslaufcol:hover{
+    
+    border-bottom: 2px solid #d6b161;
+    
+}
+.kontaktcol{
+    position: relative;
+    top:0.9em;
+    left:6em;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+}
+.kontaktcol:hover{
+  
+    border-bottom: 2px solid #d6b161;
+    
+}
+/* ---------------small size--------------- */
+.burgermenuopen{
+    height:2.8em;
+    width:2.8em;
+    left:0.3em;
+    position: relative;
+    background-color: #1b1b1b;
+    top:-3em;
+    border:none;
+}
+.burgermenuopen:hover >.strichcross1{
+    background-color: #d6b161;
+}
+.burgermenuopen:hover >.strichcross2{
+    background-color: #d6b161;
+}
+
+.strichcross1{
+    position: absolute;
+    width: 2.8em;
+    height:5px;
+    background-color: white;
+    transform: rotate(45deg);
+    border-radius:3px;
+    transition: all .0.3s ease-in;
+}
+.strichcross2{
+    position: absolute;
+    width: 2.8em;
+    height:5px;
+    background-color: white;
+    transform: rotate(-45deg);
+    border-radius:3px;
+    transition: all .0.3s ease-in;
+}
+
+.übermichcolburger{
+    text-align: center;
+    position: relative;
+    font-style: lighter;
+    top:-1em;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+    font-size: 3em;
+    
+    width: 100%;
+    
+   
+}
+.übermichcolburger:hover{
+   
+    color:#d6b161!important;
+    
+    
+}
+.technologiecolburger{
+    text-align: center;
+    position: relative;
+    top:-2em;
+    font-style: lighter;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+    font-size: 3em;
+    
+    width: 100%;
+}
+
+.technologiecolburger:hover{
+  
+    color:#d6b161!important;
+    
+    
+}
+.lebenslaufcolburger{
+    text-align: center;
+    position: relative;
+    top:-3em;
+    font-style: lighter;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+    font-size: 3em;
+    
+    width: 100%;
+}
+.lebenslaufcolburger:hover{
+    
+    color:#d6b161!important;
+    
+    
+}
+.kontaktcolburger{
+    text-align: center;
+    position: relative;
+    top:-4em;
+    font-style: lighter;
+    /* transition: all .0.3s ease-in;  */
+    height:1.5em;
+    font-size: 3em;
+    
+    width: 100%;
+}
+.kontaktcolburger:hover{
+   
+    color:#d6b161!important;
+    
+    
+}
+
+/* --------------media queries------------- */
+@media only screen and (max-width: 600px){
+    .übermichcol{
+      display: none;
+    }
+    .technologiecol{
+        display: none;
+      }
+      .lebenslaufcol{
+        display: none;
+      }
+      .kontaktcol{
+        display: none;
+      }
+      .logocol{
+        display: none;
+      }
+  } 
+
+  @media only screen and (min-width: 600px){
+   
+    .burgerrow{
+       background-image: none;
+   
+    }
+    
+  } 
+
+.nachobenpfeil{
+    
+    height:4em;
+    width:4em;
+    position: fixed;
+    bottom:1em;
+    left:50%;
+    margin-left:-2em;
+    border-radius:50%;
+    background-color: #1b1b1b;
+    z-index: 9999;
+    border:none;
+    transition: all .0.3s ease-out;
+    
+}
+.nachobenpfeildiv{
+    border-bottom: 5px solid #d6b161;
+    border-left: 5px solid #d6b161;
+    width: 2em;
+    height: 2em;
+    transform: rotate(135deg);
+    margin-left:0.6em !important;
+    margin-top:0.8em !important;
+    
+
+}
+@media only screen and (max-width: 992px){
+    .nachobenpfeil{
+    
+      
+        
+       display: none!important;
+       
+       
+        
+      
+        
+    }
+}
+button:focus{
+    outline:none!important;
+}

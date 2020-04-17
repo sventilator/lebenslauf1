@@ -1,0 +1,279 @@
+.containerbanner{
+   
+    height: 40em;
+   
+}
+.bannerrow{
+   
+    top:0em;
+    
+    height:40em;
+    
+    background-image: url(../media/code4.jpeg) ;
+    background-attachment: fixed;
+    background-size: cover ;
+   
+    background-repeat:no-repeat;
+  
+    
+}
+
+.bannerrow2{
+    
+    position: relative;
+    z-index: 10;
+    top:-40em;
+   
+    
+    
+    height: 40em;
+    background: #283c86bd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283c86ef, #45a247f6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1b1b1bec, #d6b161ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* background-color: #073a36f2; */
+    
+} 
+
+.bannertext{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height:10em;
+   margin-left:-50%;
+   
+  
+    top:15em;
+    left: 50%;
+  
+   
+}
+
+
+.schrift{
+    position: absolute;
+    font-weight: 300;
+    letter-spacing: -2px;
+    z-index: 100;
+    font-size: 6em;
+    font-weight:100; 
+    color:#1b1b1b;
+    width: 100%;
+   
+    text-align: center;
+}
+.schrift2{
+    position: absolute;
+    text-align: center;
+
+     
+     text-decoration-line:underline;
+     text-decoration-line:overline;
+    
+   text-decoration-color: #d6b161; 
+  
+   
+   
+   
+    width: 100%;
+    letter-spacing: 0.2em;
+   
+    top:5em;
+    z-index: 100;
+    font-size: 1.4em;
+   color:#1b1b1b;
+  
+   
+      /* color:rgb(107, 93, 93);  */  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+   .schrift {
+    font-size: 4em;
+     
+    }
+   .schrift2 {
+        font-size: 1em;
+       
+        top:5em;
+        
+        
+        } 
+        .bannertext{
+         width:100%;   
+        
+        }
+  } 
+  @media only screen and (max-width: 400px) {
+
+    .schrift {
+     font-size: 3.3em;
+      /* font-weight: lighter; */
+     /* left:0.7em; */
+     }
+     .schrift2 {
+         font-size: 1em;
+         top:4em;
+        
+        
+         
+         } 
+         .bannertext{
+          width:100%;   
+          
+         }
+   } 
+   @media only screen and (max-width: 301px) {
+
+    .schrift {
+     font-size: 2.5em;
+      /* font-weight: lighter; */
+     /* left:0.7em; */
+     }
+     .schrift2 {
+         font-size: 0.8em;
+         top:4em;
+        
+        
+         
+         } 
+         .bannertext{
+          width:100%;   
+          
+         }
+   } 
+ 
+
+
+
+.kreisbild{
+    position: absolute;
+    z-index: 20;
+    border:0.5em solid white;
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+    top:40em;
+    left:50%;
+    margin:-10em;
+    background-image: url(../media/sven2.jpg);
+    background-size: 20em 20em;
+    background-position-x: -1em; 
+    transition: all .2s ease-in-out; 
+   
+    
+   
+}
+
+
+.mousediv{
+    position: absolute;
+    z-index: 20;
+    top:10em;
+    height: 3.2em;
+    left:50%;
+    margin-left:-1em;
+    width:2em;
+    border: 2px solid #d6b161;
+    border-radius: 25px;
+
+}
+
+
+.scroller{
+    width: 0.16em;
+    height:12px ;
+    position: relative;
+    left:0.78em;
+    top:0.6em;
+    background-color: #d6b161;
+    animation: scroller 1.5s ease-in-out infinite both;
+}
+ @keyframes scroller {
+    0% {
+     
+      opacity: 1;
+      top:0.7em;
+    }
+    50%{
+        opacity: 0.4; 
+    }
+    80% {
+      
+      opacity: 0.1;
+    }
+    100% {
+      
+      opacity: 0;
+      top:0.9em;
+    }
+  } 
+
+ 
+
+  .nachuntenpfeil{
+    position: absolute;
+    
+    z-index: 20;
+    top:10em;
+    height: 5em;
+    left:50%;
+    margin-left:-1em;
+    width:2em;
+    
+    
+}
+.nachuntenpfeildiv{
+    display: none;
+    border-bottom: 5px solid #d6b161;
+    border-left: 5px solid #d6b161;
+    width: 2em;
+    height: 2em;
+    transform: rotate(-45deg);
+    margin-left:-0.1em !important;
+    margin-top:0.3em !important;
+    
+    animation: nachuntenpfeildiv 2s ease-in-out infinite both;
+}
+
+@keyframes nachuntenpfeildiv {
+    0% {
+     
+      opacity: 1;
+      
+    }
+    50%{
+        opacity: 0.4; 
+        margin-top:0.7em;
+    }
+    60%{
+        opacity: 0.3; 
+        margin-top:0.8em;
+    }
+    80% {
+      
+      opacity: 0;
+      margin-top:0.9em;
+    }
+    90%{
+        opacity: 0;
+        margin-top:1em;
+    }
+    100% {
+      
+      
+      top:0.9em;
+    }
+  } 
+
+  @media only screen and (max-width: 600px){
+    .mousediv{
+      display:none;
+    }
+    .nachuntenpfeildiv{
+        display: block;
+    }
+}
+
+ 

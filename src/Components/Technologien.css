@@ -1,0 +1,342 @@
+/* .projekterow{
+    position: absolute;
+    top:90em;
+    
+    width: 100%;
+    height: 30em;
+    border:1px solid black;
+    background-color: aqua;
+
+    
+} */
+
+.containerprojekt{
+    position: relative;
+   
+  }
+  .projekterow{
+      position: absolute;
+      
+      width: 100%;
+      height:40em;
+      background-color: aqua;
+      background-image: url(../media/office.jpg) ;
+      background-attachment: fixed;
+      background-size: cover ;
+     
+      background-repeat:no-repeat;
+      border:1px solid green;
+      
+  }
+  /* @media only screen and (max-width: 993px) {
+      .projekterow {
+        height:86em;
+      }
+    } */
+  
+    .überschriftpro{
+      position: absolute;
+      z-index: 20;
+      font-weight: lighter;
+      height: 1.2em;
+      width: 7.1em;
+      top:-2em;
+      left:50%;
+     
+      margin-left:-3.55em;
+      
+      
+    
+  }
+  .projekterow2{
+      
+      position: absolute;
+     
+     
+      
+      
+      height: 40em;
+      width: 100%;
+      background: #283c86bb;
+     /*  background-color: #073a36d2; */
+      background: -webkit-linear-gradient(to right, #283c86ef, #45a247ee); /* Chrome 10-25, Safari 5.1-6 */
+    /*  background: linear-gradient(to right, #283c86ee, #45a247e5); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to right, #1b1b1bf1, #d6b161c0);
+  }
+  /* @media only screen and (max-width: 993px) {
+      .projekterow2 {
+          height:86em;
+      }
+    } */
+  
+    .projekterowcards{
+      position: relative;
+     
+     
+     
+     
+      height: 40em;
+      width: 80em;
+      left:50%;
+      margin-left:-40em!important;
+    
+    }
+    
+    @media only screen and (max-width: 1281px) {
+      .projekterowcards {
+      width:60em;
+      
+      margin-left:-30em!important;
+       
+      }
+    } 
+     @media only screen and (max-width: 993px) {
+      .projekterowcards {
+      width:100%;
+      left:0;
+      margin-left:0!important;
+       
+      }
+    } 
+  
+  .carddiv{
+    position: relative;
+    left:0.9em;
+      box-shadow: black;
+      border-radius: 0%;
+      width:23em;
+      position: relative;
+      top:0em;
+      height: 30em;
+      background-color: rgba(255, 255, 255, 0.63);
+      transition: all .2s ease-in-out; 
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      
+  }
+  @media only screen and (max-width: 1281px) {
+      .carddiv {
+     height:22em;
+     top:0em;
+     width:17em;
+    
+       
+      }
+    } 
+    @media only screen and (max-width: 993px) {
+      .carddiv {
+     left:0em;
+     top:0em;
+     width:100%;
+     border-radius: 0%;
+     background-color: white;
+    
+       
+      }
+    } 
+  
+  
+
+  .carddiv:hover {
+     z-index: 999;
+     background-color: white;
+     color:white;
+       /* transform: scale(1.01); */ 
+  
+       
+  }
+  
+  .carddivinner{
+      position: absolute;
+      border-radius: 50%;
+      height:20em;
+      width: 20em;
+      left:50%;
+      margin-left:-10em;
+      top:8%;
+      background-color: #FFFFFF;
+      background-image: url(../media/Reacticon.svg) ;
+      background-position-x: -4em;
+  
+      background-size: cover ;
+     
+      background-repeat:no-repeat;
+      transition: all .2s ease-in-out!important;
+  }
+  
+  .carddivinner:hover{
+    transform: scale(1.07);
+  }
+  
+  @media only screen and (max-width: 1281px) {
+      .carddivinner {
+      width:15em;
+      height: 15em;
+      margin-left:-7.5em;
+      background-position-x: -3em;
+     
+       
+      }
+    } 
+  .carddivinner.zwei{
+      background-image: url(../media/hcj.jpg) ;
+      background-size: 100%;
+      background-position-x: 0em;
+      background-position-y: 3em;
+      background-color:  #FFFFFF;
+  }
+  .carddivinner.drei{
+      background-image: url(../media/net.jpg) ;
+      background-size: 70%;
+      background-position-x: 3em;
+      background-position-y: 3em;
+      background-color: #FFFFFF;
+  }
+  .carddivinner.vier{
+    background-image: url(../media/sql2.png) ;
+    background-size: 70%;
+    background-position-x: 4em;
+    background-position-y: 2.5em;
+    background-color: #FFFFFF;
+  }
+  .carddivinner.fünf{
+    background-image: url(../media/jquery2.jpg) ;
+    background-size: 100%;
+    background-position-x: 0em;
+    background-position-y: 7em;
+    background-color: #FFFFFF;
+  }
+ 
+  
+  @media only screen and (max-width: 1281px) {
+  
+      .carddivinner.drei {
+      width:15em;
+      height: 15em;
+      margin-left:-7.5em;
+      background-position-x: 2em;
+      background-position-y: 2.3em;
+     
+       
+      }
+    } 
+  .cardschrift{
+      position: relative;
+      color:black;
+      top:9em;
+      
+      
+  }
+  
+  .btncard{
+  
+    left:50%;
+    margin-left:-5em;
+    top:22.5em;
+    
+    
+    
+    width:10em;
+    height: 2.5em;
+    border-radius:20px!important; 
+    position: relative;
+    
+    background-color: transparent!important;
+    border:1px solid black;
+    color:black!important;
+    
+  }
+  .btncard:hover{
+    
+    background-color: black!important;
+    color:white!important;
+  }
+  
+  @media only screen and (max-width: 1281px) {
+      .cardschrift{
+          
+          font-size: 30px;
+       
+      }
+      .btncard{
+          top:16.5em;
+      }
+    } 
+  .h1strich{
+      color:white;
+      font-size: 1em;
+  }
+  
+  .machmal{
+    position: relative;
+   
+    width:90em;
+   
+  }
+  
+  .react-multiple-carousel__arrow{
+    position: absolute;
+    top:36.7em;
+    z-index: 100!important;
+    outline: none !important;
+    margin:-1.15em;
+    background-color: transparent!important;
+    width:4em;
+    height: 4em;
+    border-radius: 50%!important;
+    
+    
+    
+  }
+  .react-multiple-carousel__arrow:before{
+    color:#1b1b1b!important;
+  }
+   @media only screen and (max-width: 1282px){
+    .react-multiple-carousel__arrow{
+      top:34em;
+}
+} 
+ 
+   @media only screen and (max-width: 450px){
+    .react-multiple-carousel__arrow{
+      background-color: transparent!important;
+    }
+  } 
+  /* .react-multiple-carousel__arrow:hover{
+    transform: scale(1.15);
+  } */
+  .react-multiple-carousel__arrow::before{
+    font-size: 3em!important;
+    top:-5px;
+  }
+  .react-multi-carousel-dot button{
+    border:none!important;
+    height: 0.5em!important;
+    width: 100%!important;
+    border-radius: 0%!important;
+    outline: none !important;
+    border-bottom:2px solid rgba(0, 0, 0, 0.952)!important;
+    background-color: transparent!important;
+    
+  } 
+  /* .react-multi-carousel-dot--active button{
+    background-color: black!important;
+    border:0.1px solid rgba(255, 255, 255, 0.712)!important;
+    box-shadow: 0 40px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)!important;
+    height: 0.5em!important;
+    transition: background-color .0ms!important;
+    transition-delay: 0ms!important;
+    display:none!important;
+  }
+  
+  .react-multi-carousel-dot{
+    border:none!important;
+    width:5.7em;
+    height:3.5em;
+    outline: none !important;
+    transition: background-color .0ms!important;
+    transition-delay: 0ms!important;
+    display:none!important;
+  } 
+   */
+  
+  
